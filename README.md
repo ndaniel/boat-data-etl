@@ -1,11 +1,12 @@
 # Boat Data - ETL pipeline 
 
-A simple, production-grade ETL pipeline for cleaning and validating raw boat listing data. This script:
+A simple, production-grade ETL pipeline for cleaning and validating raw boat sales data.
+The test data is from [Kaggle](https://www.kaggle.com/datasets/karthikbhandary2/boat-sales). This script:
 
 - Cleans UTF-8 encoded CSV files with non-ASCII characters.
 - Converts currency and year fields into structured formats.
 - Validates schema using [Pandera](https://pandera.readthedocs.io/).
-- Jupyter Notebook contains an exploratory analysis of the same data
+- Jupyter Notebook contains an exploratory analysis of the same data with some graphs
 
 ## Usage
 
