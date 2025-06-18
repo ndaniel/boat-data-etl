@@ -19,6 +19,9 @@ jobs:
         run: |
           pip install -r requirements.txt
 
+      - name: Create output directory
+        run: mkdir -p output
+
       - name: Run ETL with test data
         run: |
-          python src/pipeline.py -i data/boat_data.csv -o output/validate_boat_data.csv
+          python src/pipeline.py -i data/boat_data.csv -o output/validated_boat_data.csv
