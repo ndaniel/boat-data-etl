@@ -1,4 +1,4 @@
-# boat-data-etl
+# Boat Data - ETL pipeline 
 
 A simple, production-grade ETL pipeline for cleaning and validating raw boat listing data. This script:
 
